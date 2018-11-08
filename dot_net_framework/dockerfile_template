@@ -1,4 +1,4 @@
-﻿FROM 4.7.2-sdk-20181009-windowsservercore-1709
+﻿FROM microsoft/donet-framework:4.7.2-sdk-20181009-windowsservercore-1709
 WORKDIR /app
 COPY dot_net_framework/startup.ps1 .
 COPY dot_net_framework/checkout.ps1 .
